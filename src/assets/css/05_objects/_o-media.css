@@ -1,0 +1,8 @@
+.o-media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.o-media__img {
+  margin-right: 10px;
+}
