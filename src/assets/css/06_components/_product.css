@@ -1,0 +1,43 @@
+.product {
+}
+
+.product__header {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.product__image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product__btn-add-to-cart {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--rose-50-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product__title-1 {
+  font-size: 0.9em;
+  color: var(--rose-400-color);
+}
+
+.product__title-2 {
+  font-weight: 600;
+}
+
+.product__price {
+  font-weight: 600;
+  color: var(--red-color);
+}
