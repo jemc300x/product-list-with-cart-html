@@ -9,3 +9,55 @@
 .u-padding-large {
   padding: 20px;
 }
+
+.u-font-weight\@600 {
+  font-weight: 600;
+}
+
+.u-font-weight\@700 {
+  font-weight: 700;
+}
+
+.u-color-rose\@50 {
+  color: var(--rose-50-color);
+}
+
+.u-color-rose\@100 {
+  color: var(--rose-100-color);
+}
+
+.u-color-rose\@300 {
+  color: var(--rose-300-color);
+}
+
+.u-color-rose\@400 {
+  color: var(--rose-400-color);
+}
+
+.u-color-rose\@500 {
+  color: var(--rose-500-color);
+}
+
+.u-color-rose\@900 {
+  color: var(--rose-900-color);
+}
+
+.u-color-red {
+  color: var(--red-color);
+}
+
+.u-color-green {
+  color: var(--red-color);
+}
+
+.u-mb\@5 {
+  margin-bottom: 5px;
+}
+
+.u-mr\@5 {
+  margin-right: 5px;
+}
+
+.u-ml\@5 {
+  margin-left: 5px;
+}
