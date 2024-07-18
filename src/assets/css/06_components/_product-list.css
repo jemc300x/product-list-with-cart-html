@@ -4,3 +4,10 @@
   flex-direction: column;
   gap: 20px;
 }
+
+@media (min-width: 1200px) {
+  .product-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

@@ -42,3 +42,10 @@
   align-items: center;
   border-radius: 10px;
 }
+
+@media (min-width: 1200px) {
+  .cart {
+    width: 300px;
+    flex: 1 0 auto;
+  }
+}

@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 150px;
 }
 
 .product__description {
@@ -40,4 +41,10 @@
 .product__price {
   font-weight: 600;
   color: var(--red-color);
+}
+
+@media (min-width: 1200px) {
+  .product {
+    width: 250px;
+  }
 }
