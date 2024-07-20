@@ -3,9 +3,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .product-list {
     flex-direction: row;
     flex-wrap: wrap;

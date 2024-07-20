@@ -1,4 +1,5 @@
 .product {
+  width: 330px;
 }
 
 .product__header {
@@ -43,7 +44,13 @@
   color: var(--red-color);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
+  .product {
+    width: clamp(225px, 45%, 350px);
+  }
+}
+
+@media (min-width: 1024px) {
   .product {
     width: 250px;
   }

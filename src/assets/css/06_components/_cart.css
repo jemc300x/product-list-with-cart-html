@@ -2,6 +2,7 @@
   background-color: var(--white-color);
   padding: 15px;
   border-radius: 10px;
+  height: fit-content;
 }
 
 .cart__title {
